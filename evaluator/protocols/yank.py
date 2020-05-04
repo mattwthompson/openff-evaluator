@@ -511,6 +511,7 @@ class LigandReceptorYankProtocol(BaseYankProtocol):
 
         Harmonic = "Harmonic"
         FlatBottom = "FlatBottom"
+        Boresch = "Boresch"
 
     ligand_residue_name = InputAttribute(
         docstring="The residue name of the ligand.",
